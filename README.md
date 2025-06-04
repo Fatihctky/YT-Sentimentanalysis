@@ -18,5 +18,6 @@ It fetches comments from any public video using the YouTube Data API v3, perform
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Fatihctky/YT-SentimentRadar.git
-cd YT-SentimentRadar
+git clone https://github.com/Fatihctky/YT-Sentimentanalysis.git
+cd YT-Sentimentanalysis
+
