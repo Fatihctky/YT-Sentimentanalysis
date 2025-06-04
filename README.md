@@ -21,3 +21,43 @@ It fetches comments from any public video using the YouTube Data API v3, perform
 git clone https://github.com/Fatihctky/YT-Sentimentanalysis.git
 cd YT-Sentimentanalysis
 
+# 🔑 How to Get a YouTube Data API Key
+
+To use this project, you need a valid YouTube Data API key.
+Follow the steps below to generate your own key and start analyzing comments from any public YouTube video.
+
+
+## 📌 Step-by-Step Instructions
+
+### 1. Go to Google Cloud Console
+Open: https://console.cloud.google.com/
+
+> Make sure you're logged in with your Google account.
+
+
+### 2. Create a New Project
+- Click **“Select a project”** (top bar)
+- Then click **“New Project”**
+- Enter a name (e.g., `YT-SentimentRadar`) and click **Create**
+
+
+### 3. Enable the YouTube Data API
+- From the left menu:  
+  **APIs & Services > Library**
+- In the search bar, type:  
+  `YouTube Data API v3`
+- Click on it, then click **Enable**
+
+
+### 4. Create an API Key
+- Go to:  
+  **APIs & Services > Credentials**
+- Click **“+ Create Credentials” > API Key**
+- A dialog will pop up with your new key  
+  → Copy that key
+
+
+### 5. Use Your API Key in the Project
+
+- In the root folder of the project, create a `.env` file  
+- Paste your key inside it like this:
