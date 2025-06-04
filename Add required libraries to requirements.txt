@@ -1,0 +1,8 @@
+requests
+pandas
+textblob
+matplotlib
+seaborn
+wordcloud
+streamlit
+python-dotenv
